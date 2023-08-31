@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameWorkCore;
-using Dominio.Entities
+using Microsoft.EntityFrameworkCore;
+using Dominio.Entities;
 
 namespace Persistencia;
 

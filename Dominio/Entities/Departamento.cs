@@ -10,5 +10,5 @@ namespace Dominio.Entities;
         public string NombreDep{ get; set; }
         public string IdPaisFk{ get; set; }
         public Pais Pais { get; set; }
-        public ICollection<Region> Regiones { get; set; }
+        public ICollection<Departamento> Departamentos { get; set; }
     }
