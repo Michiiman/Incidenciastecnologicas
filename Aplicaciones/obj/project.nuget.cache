@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0MRW6+WG7h3pT9pJdtIo5b0nwpm4jh7D5L2/VHVybPQ720MWGruIeNj3u/E5e1/e5IQB8pOwJqe26OiSsW52A==",
+  "dgSpecHash": "b4osd/NAz6yaJx6W/IsT3WM1ktVtXaEEwSN6vbzLfNTiWDfv0FxLO/uHarA3Z2TQEJb6DdtcKdqrC18yJ8WTkw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\APT01-36\\Documents\\Incidenciastecnologicas\\Aplicaciones\\Aplicaciones.csproj",
+  "projectFilePath": "C:\\Users\\APT01-36\\Documents\\Incidenciastecnologicas\\Aplicaciones\\Aplicaciones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-36\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\APT01-36\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

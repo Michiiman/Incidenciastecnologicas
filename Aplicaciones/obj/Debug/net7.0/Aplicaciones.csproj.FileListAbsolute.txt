@@ -1,0 +1,17 @@
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Aplicaciones.deps.json
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Aplicaciones.dll
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Aplicaciones.pdb
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Dominio.dll
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Persistencia.dll
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Dominio.pdb
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\bin\Debug\net7.0\Persistencia.pdb
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.csproj.AssemblyReference.cache
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.AssemblyInfoInputs.cache
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.AssemblyInfo.cs
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.csproj.CoreCompileInputs.cache
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.csproj.CopyComplete
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.dll
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\refint\Aplicaciones.dll
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\Aplicaciones.pdb
+C:\Users\APT01-36\Documents\Incidenciastecnologicas\Aplicaciones\obj\Debug\net7.0\ref\Aplicaciones.dll

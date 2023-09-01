@@ -12,7 +12,9 @@ namespace Persistencia.Data.Configuration
             // Aquí puedes configurar las propiedades de la entidad Marca
             // utilizando el objeto 'builder'.
             builder.ToTable("matricula");
-            
+
+            builder.HasKey(e => e.Id);
+            builder.Property(e => e.Id);
         }
     }
 }
