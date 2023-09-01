@@ -23,6 +23,7 @@ namespace Persistencia.Data.Configuration
             builder.HasOne(p => p.Departamento)
             .WithMany(p => p.Ciudades)
             .HasForeignKey(p => p.IdDepFk);
+            
         }
     }
 }
