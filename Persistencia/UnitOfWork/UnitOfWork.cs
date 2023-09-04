@@ -4,7 +4,7 @@ using Persistencia.Repository;
 
 namespace Persistencia.UnitOfWork
 {
-    public class UnitOfWork : IUnitOfWork,IDisposable
+    public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly ApiIncidenciasContext context;
         private PaisRepository _paises;
@@ -14,17 +14,18 @@ namespace Persistencia.UnitOfWork
             context = _context;
         }
 
-        public IPais Paises{
-            get 
+        public IPais Paises
+        {
+            get
             {
-                if(_paises==null)
+                if (_paises == null)
                 {
                     _paises = new PaisRepository(context);
                 }
                 return _paises;
             }
         }
-        
+
         public int Save()
         {
             return context.SaveChanges();
@@ -32,6 +33,10 @@ namespace Persistencia.UnitOfWork
         public void Dispose()
         {
             context.Dispose();
+        }
+        public async Task<int> SaveAsync()
+        {
+            return await context.SaveChangesAsync();
         }
     }
 }

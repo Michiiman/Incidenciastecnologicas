@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistenci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIncidencias", "ApiIncidencias\ApiIncidencias.csproj", "{230FE4A6-23DB-4B73-8429-5608930AAA47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicaciones", "Aplicaciones\Aplicaciones.csproj", "{BBC4352C-663E-4675-8739-849DD7D4B914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{C746A8A9-EA09-4E63-87C1-5002715C9059}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{230FE4A6-23DB-4B73-8429-5608930AAA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230FE4A6-23DB-4B73-8429-5608930AAA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{230FE4A6-23DB-4B73-8429-5608930AAA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC4352C-663E-4675-8739-849DD7D4B914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC4352C-663E-4675-8739-849DD7D4B914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC4352C-663E-4675-8739-849DD7D4B914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC4352C-663E-4675-8739-849DD7D4B914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C746A8A9-EA09-4E63-87C1-5002715C9059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C746A8A9-EA09-4E63-87C1-5002715C9059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C746A8A9-EA09-4E63-87C1-5002715C9059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C746A8A9-EA09-4E63-87C1-5002715C9059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
