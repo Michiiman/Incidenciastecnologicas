@@ -1,6 +1,8 @@
 using AspNetCoreRateLimit;
+using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.IdentityModel.Tokens;
+using Persistencia.UnitOfWork;
 //using Seguridad.Tokens;
 
 namespace ApiIncidencias.Extensions;
@@ -14,6 +16,11 @@ namespace ApiIncidencias.Extensions;
                 .AllowAnyHeader());
         });
 
+        public static void ApplicationServices(this IServiceCollection services)
+        {
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
+        }
+        
         public static void ConfigureRateLimiting(this IServiceCollection services)
         {
             services.AddMemoryCache();

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Persistencia.Repository;
 
-      public class PaisRepository : GenericRepository<Pais>, IPais
+    public class PaisRepository : GenericRepository<Pais>, IPais
     {
         protected readonly ApiIncidenciasContext _context;
         
