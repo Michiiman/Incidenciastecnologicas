@@ -32,8 +32,8 @@ namespace ApiIncidencias.Controllers;
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
         {
-            var departamentos=await unitOfWork.Paises.GetAllAsync();
-            return Ok(departamentos);
+            var pais=await unitOfWork.Paises.GetAllAsync();
+            return Ok(pais);
         }
 
         [HttpGet("{id}")]
@@ -42,8 +42,8 @@ namespace ApiIncidencias.Controllers;
 
         public async Task<IActionResult> Get (int id)
         {
-            var departamento=await unitOfWork.Paises.GetByIdAsync(id);
-            return Ok(departamento);
+            var pais=await unitOfWork.Paises.GetByIdAsync(id);
+            return Ok(pais);
         }
 
         [HttpPost]

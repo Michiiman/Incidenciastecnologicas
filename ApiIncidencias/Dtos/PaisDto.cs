@@ -4,6 +4,7 @@ namespace ApiIncidencias.Dtos;
 
     public class PaisDto : BaseEntity
     {
-                public string NombrePais{ get; set;}
+        public string NombrePais{ get; set;}
     
+
     }
